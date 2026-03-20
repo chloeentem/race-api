@@ -25,8 +25,20 @@ public class RunnerService {
         return runnerRepository.findById(id).orElseThrow(() ->
                 new ResponseStatusException(
                         HttpStatus.NOT_FOUND,
-                        String.format("Runner %s not found", id)
+                        String.format("Runner not found", id)
                 )
         );
+    }
+
+    public Runner create(Runner runner) {
+        return runnerRepository.save(runner);
+    }
+
+    public void deleteById(Long id) {
+        runnerRepository.deleteById(id);
+    }
+
+    public Runner update(Runner runner) {
+        return runnerRepository.save(runner);
     }
 }
