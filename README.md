@@ -1,4 +1,5 @@
-# TP — Création d'une API REST : Gestion d'inscriptions à une course
+# Rendu TP Valentine HOCHON, Chloé ENTEM 
+#TP — Création d'une API REST : Gestion d'inscriptions à une course
 
 # Lancer le projet
 
