@@ -2,17 +2,17 @@
 
 # Lancer le projet
 
-Pour démarrer le projet, nous n'avons pas modifier la manière de faire du sujet
+Pour démarrer le projet, nous n'avons pas modifié la procédure indiquée dans le sujet du TP : 
 
 ## 1 — Démarrer la base de données
 
-Pour lancer votre base de données SQL et Adminer :
+Pour lancer la base de données SQL et Adminer :
 
 ```bash
 docker compose up -d
 ```
 
-(vous devez avoir lancé Docker Desktop au préalable si vous êtes sur Windows)
+(il faut avoir lancé Docker Desktop au préalable si on est sur Windows)
 
 ---
 
@@ -40,7 +40,7 @@ Paramètres de connexion :
 
 ## 3 — Lancer l'application
 
-Lancer votre configuration directement sur IntelliJ.
+Lancer la configuration directement sur IntelliJ.
 
 Sinon, depuis votre IDE ou en ligne de commande :
 
@@ -58,7 +58,7 @@ http://localhost:8080
 
 # endpoint implémentés
 
-Tous nos endpoints ont été testé avec Postman, nous avons réaliser les endpoints demandé mais pas les bonus
+Tous nos endpoints ont été testés avec Postman. Nous avons implémenté les endpoints demandés mais nous n'avos pas réalisé les bonus :
 
 ## Gestion des coureurs
 
